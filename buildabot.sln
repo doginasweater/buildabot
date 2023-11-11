@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "buildabot.cli", "buildabot.cli\buildabot.cli.fsproj", "{A37AE4BF-FDFF-4B5A-978A-8C3BA4CB1783}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "buildabot.core", "buildabot.core\buildabot.core.fsproj", "{649EC4FB-9B7E-416C-ADC7-F489DACC5D54}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "buildabot.tests", "buildabot.tests\buildabot.tests.fsproj", "{007819D7-762D-44DB-83F1-A94ABAF0000B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A37AE4BF-FDFF-4B5A-978A-8C3BA4CB1783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37AE4BF-FDFF-4B5A-978A-8C3BA4CB1783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37AE4BF-FDFF-4B5A-978A-8C3BA4CB1783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37AE4BF-FDFF-4B5A-978A-8C3BA4CB1783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649EC4FB-9B7E-416C-ADC7-F489DACC5D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649EC4FB-9B7E-416C-ADC7-F489DACC5D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649EC4FB-9B7E-416C-ADC7-F489DACC5D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649EC4FB-9B7E-416C-ADC7-F489DACC5D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007819D7-762D-44DB-83F1-A94ABAF0000B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007819D7-762D-44DB-83F1-A94ABAF0000B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007819D7-762D-44DB-83F1-A94ABAF0000B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007819D7-762D-44DB-83F1-A94ABAF0000B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
